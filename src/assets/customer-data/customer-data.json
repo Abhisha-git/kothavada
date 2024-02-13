@@ -1,0 +1,20 @@
+{
+  "CustomerDataList": [
+    {
+      "title": "wishList",
+      "src": "assets/images/heart-logo.png",
+      "alt": "heart-logo",
+      "route":"wish-list"
+    },
+    {
+      "title": "log in",
+      "src": "assets/images/login-logo.jpg",
+      "alt": "login-logo",
+      "route":"log-in"
+    },
+    {
+      "title": "Add Property +",
+      "route":"add-property"
+    }
+  ]
+}

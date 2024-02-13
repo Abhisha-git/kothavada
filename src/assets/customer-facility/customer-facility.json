@@ -1,0 +1,17 @@
+{
+  "customerFacilityList": [
+    {
+      "title": "Promote",
+      "route": "promote"
+    },
+    {
+      "title": "Find Me Room",
+      "route": "find-me-room"
+    },
+    {
+      "title": "Shift Home",
+      "src": "assets/images/vechicle-logo.jpg",
+      "route": "shift-home"
+    }
+  ]
+}

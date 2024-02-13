@@ -1,0 +1,40 @@
+<div class="navbar">
+  <div class="nav-home" routerLink="/">
+    <img src="assets/images/home-logo.jpg" alt="home-logo" />
+  </div>
+  <div class="customer-data">
+    <ng-container *ngFor="let value of CustomerDataList">
+      <div
+        [routerLink]="value.route"
+        [ngClass]="{
+          dataCss: value.title.toLowerCase() === 'wishlist' || 'log in'
+        }"
+      >
+        <div>{{ value.title }}</div>
+        <ng-container *ngIf="value.src">
+          <img [src]="value.src" [alt]="value.alt" />
+        </ng-container>
+      </div>
+    </ng-container>
+  </div>
+  <div class="customer-facility">
+    <ng-container *ngFor="let value of customerFacilityList">
+      <div
+        [routerLink]="value.route"
+        [ngClass]="{
+          dataCss: value.title === 'Shift Home'
+        }"
+        class="button"
+      >
+        <div>{{ value.title }}</div>
+        <ng-container *ngIf="value.src">
+          <img [src]="value.src" [alt]="value.alt" />
+        </ng-container>
+
+        <!-- <div class="promote"></div>
+            <div class="find-me-room"></div>
+            <div class="shift-home"></div> -->
+      </div>
+    </ng-container>
+  </div>
+</div>
