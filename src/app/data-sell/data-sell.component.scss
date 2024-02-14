@@ -1,0 +1,45 @@
+.data-sell-container {
+  border: 3px solid black;
+  height: 350px;
+  width: 290px;
+  margin: 5px;
+  border-radius: 15px;
+  background-color: rgb(243, 237, 237);
+
+  .image-container {
+    img {
+      height: 200px;
+      width: 285px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+  }
+  .property-information {
+    display: block;
+    justify-content: space-between;
+
+    .property-type {
+      text-align: start;
+      padding-left: 10px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .property-address {
+      text-align: start;
+      padding-left: 10px;
+    }
+    .property-details {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px;
+      .property-category {
+        width: 50%;
+      }
+      .property-cost {
+        width: 50%;
+        text-align: center;
+      }
+    }
+  }
+}
