@@ -1,136 +1,32 @@
-.navbar-container{
-  position: fixed;
-  width: 100%;
-  background-color: white;
+.navbar-container {
+  font-size: 14px;
 }
-.navbar {
-  justify-content: space-around;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  // position: ;
-
-  .nav-home {
-    cursor: pointer;
-    width: 10%;
-
-    img {
-      height: 90px;
-      width: auto;
-    }
-  }
-  .customer-data {
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    .wishlist {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      img {
-        height: 25px;
-        padding-left: 8px;
-      }
-    }
-    .login {
-      display: flex;
-      justify-content: space-between;
-      img {
-        height: 25px;
-        padding-left: 8px;
-      }
-    }
-  }
-  .customer-facility {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    .promote {
-      font-size: smaller;
-      button {
-        border: 2px solid black;
-        border-radius: 10px;
-        padding: 4px 10px;
-      }
-      button:hover {
-        background-color: rgb(4, 47, 82);
-        color: orangered;
-        border: 2px solid orangered;
-      }
-    }
-    .find-room {
-      font-size: smaller;
-      button {
-        border: 2px solid black;
-        border-radius: 10px;
-        padding: 4px 10px;
-      }
-      button:hover {
-        background-color: rgb(4, 47, 82);
-        color: orangered;
-        border: 2px solid orangered;
-      }
-    }
-    .shift-home {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      button {
-        border: orangered;
-        border-radius: 10px;
-        background-color: orangered;
-        color: white;
-      }
-      img {
-        height: 35px;
-        width: 35px;
-        padding-left: 8px;
-      }
-      button:hover {
-        background-color: rgb(4, 47, 82);
-        color: white;
-        border: none;
-      }
-    }
+.menu {
+  cursor: pointer;
+}
+.button {
+  font-size: 12px;
+  border: #1f3a54 solid 2px;
+  text-align: center;
+  border-radius: 6px;
+  &-icon {
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #f65104;
   }
 }
-@media (max-width: 675px) {
-  
-  .customer-data {
-    .wishlist {
-      .wish-button {
-        display: none;
-      }
 
-      img {
-        display: none;
-      }
-    }
-    .login {
-      .login-button {
-        display: none;
-      }
-
-      img {
-        display: none;
-      }
-    }
+.kb-icon {
+  img {
+    height: 16px;
+    width: 16px;
   }
-  .customer-facility {
-   
-    .find-room {
-      button {
-        display: none;
-      }
-    }
-    .shift-home {
-      button {
-        display: none;
-      }
-    }
+}
+@media only screen and (max-width: 600px) {
+  img.kb-logo {
+    height: 80px;
+    width: 100px;
+    object-fit: content;
   }
 }
