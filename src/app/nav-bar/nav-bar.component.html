@@ -1,40 +1,36 @@
-<div class="navbar">
-  <div class="nav-home" routerLink="/">
-    <img src="assets/images/home-logo.jpg" alt="home-logo" />
-  </div>
-  <div class="customer-data">
-    <ng-container *ngFor="let value of CustomerDataList">
-      <div
-        [routerLink]="value.route"
-        [ngClass]="{
-          dataCss: value.title.toLowerCase() === 'wishlist' || 'log in'
-        }"
-      >
-        <div>{{ value.title }}</div>
-        <ng-container *ngIf="value.src">
-          <img [src]="value.src" [alt]="value.alt" />
-        </ng-container>
-      </div>
-    </ng-container>
-  </div>
-  <div class="customer-facility">
-    <ng-container *ngFor="let value of customerFacilityList">
-      <div
-        [routerLink]="value.route"
-        [ngClass]="{
-          dataCss: value.title === 'Shift Home'
-        }"
-        class="button"
-      >
-        <div>{{ value.title }}</div>
-        <ng-container *ngIf="value.src">
-          <img [src]="value.src" [alt]="value.alt" />
-        </ng-container>
+<div class="navbar-container">
+  <div class="navbar">
+    <div class="nav-home">
+      <img src="assets/images/home-logo.jpg" alt="home-logo" />
+    </div>
+    <div class="customer-data">
+      <div class="wishlist">
+        <div class="wish-button">WISHLIST</div>
 
-        <!-- <div class="promote"></div>
-            <div class="find-me-room"></div>
-            <div class="shift-home"></div> -->
+        <img src="assets/images/heart-logo.png" alt="likes" />
       </div>
-    </ng-container>
+      <div class="login">
+        <div class="login-button">LOGIN</div>
+
+        <img src="assets/images/login-logo.jpg" alt="login-logo" />
+      </div>
+      <div class="add-to-property">
+        <div class="add-button">ADD PROPERTY +</div>
+      </div>
+    </div>
+    <div class="customer-facility">
+      <div class="promote">
+        <button type="button">PROMOTE</button>
+      </div>
+      <div class="find-room">
+        <button type="button">FIND ME ROOM</button>
+      </div>
+      <div class="shift-home">
+        <button type="button">
+          SHIFT HOME
+          <img src="assets/images/vechicle-logo.jpg" alt="vehicle-logo" />
+        </button>
+      </div>
+    </div>
   </div>
 </div>

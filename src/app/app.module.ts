@@ -13,6 +13,7 @@ import { PromoteComponent } from './promote/promote.component';
 import { ShiftHomeComponent } from './shift-home/shift-home.component';
 import { WishListComponent } from './wish-list/wish-list.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { DataSellComponent } from './data-sell/data-sell.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     FindMeRoomComponent,
     ShiftHomeComponent,
     SearchBarComponent,
+    DataSellComponent,
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],

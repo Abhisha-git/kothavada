@@ -9,3 +9,11 @@
     transform: translate(0px , -120px);
   }
 }
+@media (max-width: 675px){
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 14px;
+    // object-fit: cover;
+  }
+}
