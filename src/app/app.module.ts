@@ -13,7 +13,8 @@ import { PromoteComponent } from './promote/promote.component';
 import { ShiftHomeComponent } from './shift-home/shift-home.component';
 import { WishListComponent } from './wish-list/wish-list.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
-import { DataSellComponent } from './data-sell/data-sell.component';
+import { DataSellComponent } from './data-cell/data-cell.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DataSellComponent } from './data-sell/data-sell.component';
     ShiftHomeComponent,
     SearchBarComponent,
     DataSellComponent,
+    ButtonComponent,
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],

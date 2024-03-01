@@ -23,6 +23,12 @@
     width: 16px;
   }
 }
+.active{
+  color: #1f3a54;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: aqua;
+}
 @media only screen and (max-width: 600px) {
   img.kb-logo {
     height: 80px;

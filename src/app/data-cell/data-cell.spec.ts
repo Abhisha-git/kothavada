@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataSellComponent } from './data-sell.component';
+import { DataSellComponent } from './data-cell.component';
 
 describe('DataSellComponent', () => {
   let component: DataSellComponent;
@@ -8,7 +8,7 @@ describe('DataSellComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DataSellComponent]
+      declarations: [DataSellComponent],
     });
     fixture = TestBed.createComponent(DataSellComponent);
     component = fixture.componentInstance;

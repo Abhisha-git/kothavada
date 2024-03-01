@@ -1,0 +1,84 @@
+{
+  "rentList": [
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 1",
+      "types": "Type A",
+      "address": "123 Main St, City A",
+      "category": "Category X",
+      "cost": 1200
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 2",
+      "types": "Type B",
+      "address": "456 Elm St, City B",
+      "category": "Category Y",
+      "cost": 1500
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 3",
+      "types": "Type C",
+      "address": "789 Oak St, City C",
+      "category": "Category Z",
+      "cost": 1800
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 4",
+      "types": "Type A",
+      "address": "321 Pine St, City D",
+      "category": "Category X",
+      "cost": 1400
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 5",
+      "types": "Type B",
+      "address": "654 Cedar St, City E",
+      "category": "Category Y",
+      "cost": 1600
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 6",
+      "types": "Type C",
+      "address": "987 Maple St, City F",
+      "category": "Category Z",
+      "cost": 2000
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 7",
+      "types": "Type A",
+      "address": "741 Birch St, City G",
+      "category": "Category X",
+      "cost": 1300
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 8",
+      "types": "Type B",
+      "address": "852 Walnut St, City H",
+      "category": "Category Y",
+      "cost": 1700
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 9",
+      "types": "Type C",
+      "address": "963 Cherry St, City I",
+      "category": "Category Z",
+      "cost": 1900
+    },
+    {
+      "image": "assets/images/data-sell-logo1.jpg",
+      "alternative": "Alternative text 10",
+      "types": "Type A",
+      "address": "159 Plum St, City J",
+      "category": "Category X",
+      "cost": 1100
+    }
+  ]
+}

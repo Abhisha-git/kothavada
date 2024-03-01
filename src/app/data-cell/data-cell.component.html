@@ -1,0 +1,27 @@
+<ng-container *ngFor="let data of rentList" >
+  <div class="row" style="width: 100%;">
+    <div class="d-flex justify-content-between col-4" style="border: 1px solid red;">
+      <div class="data-sell-container">
+        <div class="image-container">
+          <img [src]="data.image" [alt]="data.alternative" />
+        </div>
+        <div class="property-information">
+          <div class="property-type">
+            <h4>{{ data.types }}</h4>
+          </div>
+          <div class="property-address">{{ data.address }}</div>
+    
+          <div class="property-details">
+            <div class="property-category">{{ data.category }}</div>
+            <div class="property-cost">{{ data.cost }}</div>
+          </div>
+        </div>
+        <button type="button" (click)="clickMe()">Click Me
+    
+        </button>
+      </div>
+    </div>
+  </div>
+ 
+
+</ng-container>

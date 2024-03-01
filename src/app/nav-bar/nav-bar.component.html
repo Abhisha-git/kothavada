@@ -1,6 +1,6 @@
 <div class="container-fluid navbar-container">
   <div class="row align-items-center justify-content-between">
-    <div class="col-2">
+    <div class="col-2" [routerLink]="'/'">
       <img
         class="kb-logo"
         src="https://kothabhada.com/uploads/20220620102041-kothabhada-logofinal.png"
@@ -11,7 +11,7 @@
       />
     </div>
     <div class="col-6 col-md-6 d-flex justify-content-around">
-      <div class="col-3 menu d-none d-md-flex">
+      <div class="col-3 menu d-none d-md-flex" [routerLink]="'wish-list'" routerLinkActive="active">
         WISHLIST
         <span class="kb-icon">
           <img
@@ -19,7 +19,7 @@
             alt="wishlist"
         /></span>
       </div>
-      <div class="col-3 menu d-none d-md-flex">
+      <div class="col-3 menu d-none d-md-flex" [routerLink]="'log-in'" routerLinkActive="active">
         LOGIN
         <span class="kb-icon"
           ><img
@@ -27,7 +27,7 @@
             alt="login"
         /></span>
       </div>
-      <div class="col-8 col-md-3 menu text-center text-md-start">
+      <div class="col-8 col-md-3 menu text-center text-md-start" [routerLink]="'add-property'" routerLinkActive="active">
         ADD PROPERTY
         <span class="kb-icon">
           <img
@@ -38,10 +38,10 @@
       </div>
     </div>
     <div class="col-4 d-flex justify-content-around">
-      <div class="col-8 col-md-3 button px-1 py-2 menu">PROMOTE</div>
-      <div class="col-3 button px-1 py-2 menu d-none d-md-block">FIND ROOM</div>
+      <div class="col-8 col-md-3 button px-1 py-2 menu" [routerLink]="'promote'">PROMOTE</div>
+      <div class="col-3 button px-1 py-2 menu d-none d-md-block"[routerLink]="'find-me-room'">FIND ROOM</div>
       <div
-        class="col-3 button-icon text-center px-1 py-2 menu d-none d-md-block"
+        class="col-3 button-icon text-center px-1 py-2 menu d-none d-md-block" [routerLink]="'shift-home'"
       >
         SHIFT HOME
 
